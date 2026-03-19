@@ -45,11 +45,11 @@
       </div>
       <div class="hero-stats">
         <div class="stat">
-          <span class="stat-num">5+</span>
-          <span class="stat-label">Years Experience</span>
+          <span class="stat-num">4+</span>
+          <span class="stat-label">Years in Dev</span>
         </div>
         <div class="stat">
-          <span class="stat-num">3</span>
+          <span class="stat-num">4</span>
           <span class="stat-label">Products Built</span>
         </div>
         <div class="stat">
@@ -67,7 +67,7 @@
         <div class="about-text">
           <p>I'm an Aviation IT and Operations professional based in Santiago, Chile, with a passion for turning complex operational problems into elegant digital solutions.</p>
           <p>With experience spanning airline operations, university systems, and startup product development, I bring a unique perspective to every project — combining technical depth with a sharp eye for user experience and business impact.</p>
-          <p>At <strong>Remote Leverage</strong>, I architected and developed a full-stack HR platform and suite of sales tools from the ground up. At <strong>MSU Denver</strong>, I lead automation initiatives that eliminated thousands of hours of manual work. I thrive at the intersection of design, engineering, and operations.</p>
+          <p>At <strong>Remote Leverage</strong>, I architected and developed a full-stack HR platform and suite of sales tools from the ground up using Supabase, PostgreSQL, and Next.js. At <strong>MSU Denver</strong>, I built internal tools and databases that automated departmental workflows and eliminated thousands of hours of manual work. I thrive at the intersection of design, engineering, and operations.</p>
         </div>
         <div class="about-details">
           <div class="detail-card">
@@ -144,13 +144,34 @@
           <div class="project-body">
             <div class="project-header">
               <div class="project-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="32" height="32"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/><path d="M8 7h8M8 11h6"/></svg>
+              </div>
+              <h3>MSU Denver — Departmental Operations Platform</h3>
+            </div>
+            <p class="project-desc">Internal web application and database system built for the Aviation &amp; Aerospace department at MSU Denver. Centralized student program management, automated scheduling, digitized records, and streamlined coordination across multiple departmental units.</p>
+            <div class="project-tech">
+              <span>PostgreSQL</span><span>SQL</span><span>Python</span><span>JavaScript</span><span>Google APIs</span><span>Automation</span>
+            </div>
+            <ul class="project-highlights">
+              <li>Designed and maintained PostgreSQL database for student and program data</li>
+              <li>Automated scheduling, resource allocation, and event coordination</li>
+              <li>Built reporting dashboards used by department heads for decision-making</li>
+              <li>Reduced manual administrative processing time by 35%</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-body">
+            <div class="project-header">
+              <div class="project-icon">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="32" height="32"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
               </div>
               <h3>Flight Delay Tracking Tool</h3>
             </div>
             <p class="project-desc">Agile-based delay tracking and reporting tool developed at Frontier Airlines. Designed to improve operational visibility and data accuracy for 200+ daily flights in a high-volume, FAA-regulated environment.</p>
             <div class="project-tech">
-              <span>Data Analysis</span><span>Agile Methodology</span><span>Reporting Dashboards</span><span>FAA Compliance</span>
+              <span>Data Analysis</span><span>SQL</span><span>Agile Methodology</span><span>Reporting Dashboards</span><span>FAA Compliance</span>
             </div>
             <ul class="project-highlights">
               <li>Reduced reporting time by 25%</li>
@@ -174,11 +195,12 @@
           <div class="timeline-content">
             <div class="timeline-date">Sep 2024 &mdash; Present</div>
             <h3>Remote Leverage</h3>
-            <p class="timeline-role">Automation Specialist &bull; Lead Product Designer &bull; Sales Tools Developer</p>
+            <p class="timeline-role">Automation Specialist &bull; Lead Product Designer &bull; Full-Stack Developer</p>
             <ul>
-              <li>Architected and developed HRIQ, an internal HR dashboard with Next.js, TypeScript, and Supabase</li>
-              <li>Designed and built the external sales platform and supporting sales tools</li>
+              <li>Architected HRIQ, a full-stack HR platform with Next.js, TypeScript, Supabase, and PostgreSQL</li>
+              <li>Designed and built the external sales platform and suite of sales tools</li>
               <li>Led end-to-end UI/UX design, establishing the company's design system</li>
+              <li>Wrote complex SQL queries, migrations, and database schemas in PostgreSQL via Supabase</li>
               <li>Built automated onboarding, payroll, and employee management workflows</li>
             </ul>
           </div>
@@ -215,6 +237,21 @@
         <div class="timeline-item">
           <div class="timeline-dot"></div>
           <div class="timeline-content">
+            <div class="timeline-date">Jan 2022 &mdash; Jan 2024</div>
+            <h3>Metropolitan State University of Denver</h3>
+            <p class="timeline-role">Developer &amp; Program Operations Coordinator</p>
+            <ul>
+              <li>Designed and maintained PostgreSQL databases for student program data and departmental records</li>
+              <li>Built internal web tools and automated reporting dashboards with Python, JavaScript, and SQL</li>
+              <li>Automated scheduling, resource allocation, and event coordination workflows</li>
+              <li>Integrated Google APIs for email automation, calendar management, and document generation</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
             <div class="timeline-date">Jan 2021 &mdash; Feb 2023</div>
             <h3>International Jet</h3>
             <p class="timeline-role">Operations Assistant &mdash; Client Success &amp; Project Delivery (Remote)</p>
@@ -237,7 +274,13 @@
         <div class="skill-group">
           <h3>Development</h3>
           <div class="skill-tags">
-            <span>Next.js</span><span>TypeScript</span><span>React</span><span>Node.js</span><span>Supabase</span><span>PostgreSQL</span><span>Tailwind CSS</span><span>Vercel</span><span>Turborepo</span><span>REST APIs</span>
+            <span>Next.js</span><span>TypeScript</span><span>React</span><span>Node.js</span><span>Python</span><span>JavaScript</span><span>Tailwind CSS</span><span>Vercel</span><span>Turborepo</span><span>REST APIs</span><span>Git</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Databases &amp; Backend</h3>
+          <div class="skill-tags">
+            <span>PostgreSQL</span><span>SQL</span><span>Supabase</span><span>Database Design</span><span>Migrations</span><span>Row-Level Security</span><span>Data Modeling</span>
           </div>
         </div>
         <div class="skill-group">
