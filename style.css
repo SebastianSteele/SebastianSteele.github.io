@@ -206,8 +206,23 @@ body {
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 32px;
+  overflow: hidden;
   transition: all 0.3s;
+}
+.project-body { padding: 32px; }
+.project-image {
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 1px solid var(--border);
+}
+.project-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.5s ease;
+}
+.project-card:hover .project-image img {
+  transform: scale(1.03);
 }
 .project-card:hover {
   border-color: rgba(99, 102, 241, 0.4);
