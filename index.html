@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sebastián Steele Gana — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">SSG</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav-mobile" id="nav-mobile">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-bg"></div>
+    <div class="container hero-content">
+      <p class="hero-tag">Automation Specialist &bull; Product Designer &bull; Developer</p>
+      <h1 class="hero-title">Sebastián<br><span>Steele Gana</span></h1>
+      <p class="hero-sub">I design and build products that streamline operations, automate workflows, and drive growth — from internal HR platforms to external sales tools.</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">5+</span>
+          <span class="stat-label">Years Experience</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">3</span>
+          <span class="stat-label">Products Built</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">50%</span>
+          <span class="stat-label">Process Time Reduced</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I'm an Aviation IT and Operations professional based in Santiago, Chile, with a passion for turning complex operational problems into elegant digital solutions.</p>
+          <p>With experience spanning airline operations, university systems, and startup product development, I bring a unique perspective to every project — combining technical depth with a sharp eye for user experience and business impact.</p>
+          <p>At <strong>Remote Leverage</strong>, I architected and developed a full-stack HR platform and suite of sales tools from the ground up. At <strong>MSU Denver</strong>, I lead automation initiatives that eliminated thousands of hours of manual work. I thrive at the intersection of design, engineering, and operations.</p>
+        </div>
+        <div class="about-details">
+          <div class="detail-card">
+            <div class="detail-icon">&#9906;</div>
+            <h3>Location</h3>
+            <p>Santiago, Chile</p>
+          </div>
+          <div class="detail-card">
+            <div class="detail-icon">&#9872;</div>
+            <h3>Languages</h3>
+            <p>English (Native) &bull; Spanish (B2)</p>
+          </div>
+          <div class="detail-card">
+            <div class="detail-icon">&#127891;</div>
+            <h3>Education</h3>
+            <p>B.S. Aviation &amp; Aerospace<br>MSU Denver</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-dark" id="projects">
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects-grid">
+
+        <div class="project-card project-featured">
+          <div class="project-badge">Featured</div>
+          <div class="project-header">
+            <div class="project-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="32" height="32"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M9 12h6M9 8h6M9 16h3"/></svg>
+            </div>
+            <h3>HRIQ Platform</h3>
+          </div>
+          <p class="project-desc">A comprehensive internal HR dashboard built for Remote Leverage to manage a fully remote workforce. Features employee onboarding, payroll integration, performance tracking, certificate management, and automated workflows.</p>
+          <div class="project-tech">
+            <span>Next.js</span><span>TypeScript</span><span>Supabase</span><span>Tailwind CSS</span><span>Vercel</span><span>Turborepo</span>
+          </div>
+          <ul class="project-highlights">
+            <li>Full-stack monorepo with 7 apps and 21 packages</li>
+            <li>Reduced manual HR processing time by over 50%</li>
+            <li>Automated onboarding, payroll, and employee management</li>
+            <li>Integrated with Calendly, JotForm, Stripe, QuickBooks, and more</li>
+          </ul>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="32" height="32"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+            </div>
+            <h3>Sales Platform</h3>
+          </div>
+          <p class="project-desc">External-facing sales tool for Remote Leverage, designed to streamline client acquisition and improve sales team efficiency. Built with modern web technologies and integrated with the company's CRM and communication tools.</p>
+          <div class="project-tech">
+            <span>Next.js</span><span>TypeScript</span><span>API Integrations</span><span>CRM</span>
+          </div>
+          <ul class="project-highlights">
+            <li>Directly contributed to revenue growth and client acquisition</li>
+            <li>Integrated with RecruitCRM, Respond.io, and OpenPhone</li>
+            <li>Designed end-to-end UI/UX with a consistent design system</li>
+          </ul>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="32" height="32"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            </div>
+            <h3>Delay Tracking Tool</h3>
+          </div>
+          <p class="project-desc">Agile-based delay tracking tool developed during my time at Frontier Airlines, designed to improve operational reporting and data accuracy for 200+ daily flights.</p>
+          <div class="project-tech">
+            <span>Data Analysis</span><span>Agile</span><span>Reporting Dashboards</span>
+          </div>
+          <ul class="project-highlights">
+            <li>Reduced reporting time by 25%</li>
+            <li>Increased data accuracy by 40%</li>
+            <li>Supported FAA compliance audit requirements</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="experience">
+    <div class="container">
+      <h2 class="section-title">Experience</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">2024 &mdash; Present</div>
+            <h3>Remote Leverage</h3>
+            <p class="timeline-role">Automation Specialist &bull; Lead Product Designer &bull; Sales Tools Developer</p>
+            <ul>
+              <li>Architected and developed HRIQ, an internal HR dashboard with Next.js, TypeScript, and Supabase</li>
+              <li>Designed and built the external sales platform and supporting sales tools</li>
+              <li>Led end-to-end UI/UX design, establishing the company's design system</li>
+              <li>Built automated onboarding, payroll, and employee management workflows</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">Feb 2024 &mdash; Present</div>
+            <h3>Metropolitan State University of Denver</h3>
+            <p class="timeline-role">Automation &amp; Integration Specialist (Remote)</p>
+            <ul>
+              <li>Lead automated workflow design, reducing manual data entry by 40%</li>
+              <li>Partner with department heads to translate operational needs into product roadmaps</li>
+              <li>Develop system documentation, logic maps, and troubleshooting procedures</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">Nov 2023 &mdash; Mar 2024</div>
+            <h3>Frontier Airlines</h3>
+            <p class="timeline-role">Flight Operations Analyst (Intern)</p>
+            <ul>
+              <li>Supported operations for 200+ daily flights in a regulated environment</li>
+              <li>Designed an Agile-based delay tracking tool improving reporting and accuracy</li>
+              <li>Ensured 100% compliance with FAA audit requirements</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">Jan 2021 &mdash; Feb 2023</div>
+            <h3>International Jet</h3>
+            <p class="timeline-role">Operations Assistant &mdash; Client Success &amp; Project Delivery (Remote)</p>
+            <ul>
+              <li>Managed enterprise B2B client relationships for charter flights with 100% mission completion</li>
+              <li>Streamlined CRM integrations, reducing response times by 30%</li>
+              <li>Coordinated 25+ weekly missions aligning logistics with compliance</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-dark" id="skills">
+    <div class="container">
+      <h2 class="section-title">Skills &amp; Tools</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Development</h3>
+          <div class="skill-tags">
+            <span>Next.js</span><span>TypeScript</span><span>React</span><span>Node.js</span><span>Supabase</span><span>PostgreSQL</span><span>Tailwind CSS</span><span>Vercel</span><span>Turborepo</span><span>REST APIs</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Design</h3>
+          <div class="skill-tags">
+            <span>UI/UX Design</span><span>Figma</span><span>Design Systems</span><span>Responsive Design</span><span>Prototyping</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Operations &amp; PM</h3>
+          <div class="skill-tags">
+            <span>Scrum / Kanban</span><span>Jira</span><span>Confluence</span><span>Workflow Automation</span><span>Integration Scoping</span><span>Risk Mitigation</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Integrations</h3>
+          <div class="skill-tags">
+            <span>Stripe</span><span>QuickBooks</span><span>Calendly</span><span>JotForm</span><span>RecruitCRM</span><span>Sentry</span><span>Google APIs</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="container contact-container">
+      <h2 class="section-title">Let's Connect</h2>
+      <p class="contact-sub">I'm always open to discussing new opportunities, interesting projects, or just talking tech.</p>
+      <div class="contact-links">
+        <a href="mailto:Steele.SebastianG@Gmail.com" class="contact-card">
+          <div class="contact-icon">&#9993;</div>
+          <h3>Email</h3>
+          <p>Steele.SebastianG@Gmail.com</p>
+        </a>
+        <a href="tel:+56948930637" class="contact-card">
+          <div class="contact-icon">&#9742;</div>
+          <h3>Phone</h3>
+          <p>+56 948 930 637</p>
+        </a>
+        <a href="https://github.com/Aerobridgeadmin" target="_blank" class="contact-card">
+          <div class="contact-icon">&#128187;</div>
+          <h3>GitHub</h3>
+          <p>Aerobridgeadmin</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2026 Sebastián Steele Gana. Built with purpose.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
