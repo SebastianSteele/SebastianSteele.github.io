@@ -466,3 +466,31 @@ body {
   .projects-grid { grid-template-columns: 1fr; }
   .project-highlights { grid-template-columns: 1fr; }
 }
+
+/* LIGHTBOX */
+#lightbox {
+  position: fixed; inset: 0;
+  z-index: 1000;
+  background: rgba(0,0,0,0.92);
+  display: flex; align-items: center; justify-content: center;
+  opacity: 0; pointer-events: none;
+  transition: opacity 0.3s;
+  padding: 24px;
+}
+#lightbox.open { opacity: 1; pointer-events: auto; }
+#lightbox img {
+  max-width: 95vw; max-height: 90vh;
+  border-radius: 8px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+  transform: scale(0.95);
+  transition: transform 0.3s;
+}
+#lightbox.open img { transform: scale(1); }
+.lightbox-close {
+  position: absolute; top: 16px; right: 24px;
+  font-size: 2rem; color: #fff;
+  cursor: pointer; opacity: 0.7;
+  transition: opacity 0.2s;
+  line-height: 1;
+}
+.lightbox-close:hover { opacity: 1; }
