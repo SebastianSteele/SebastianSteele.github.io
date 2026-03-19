@@ -260,6 +260,9 @@ body {
   border-top: 1px solid var(--border);
 }
 @media (max-width: 768px) {
+  .project-gallery { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 480px) {
   .project-gallery { grid-template-columns: 1fr; }
 }
 .project-card:hover {
