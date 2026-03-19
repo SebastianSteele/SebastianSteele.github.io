@@ -14,7 +14,6 @@
     <div class="nav-inner">
       <a href="#" class="nav-logo">SSG</a>
       <div class="nav-links">
-        <a href="#about">About</a>
         <a href="#projects">Projects</a>
         <a href="#experience">Experience</a>
         <a href="#skills">Skills</a>
@@ -25,7 +24,6 @@
       </button>
     </div>
     <div class="nav-mobile" id="nav-mobile">
-      <a href="#about">About</a>
       <a href="#projects">Projects</a>
       <a href="#experience">Experience</a>
       <a href="#skills">Skills</a>
@@ -36,198 +34,113 @@
   <header class="hero">
     <div class="hero-bg"></div>
     <div class="container hero-content">
-      <p class="hero-tag">Automation Specialist &bull; Product Designer &bull; Developer</p>
+      <p class="hero-tag">Full-Stack Developer &bull; Product Designer &bull; Automation Specialist</p>
       <h1 class="hero-title">Sebastián<br><span>Steele Gana</span></h1>
-      <p class="hero-sub">I design and build products that streamline operations, automate workflows, and drive growth — from internal HR platforms to external sales tools.</p>
+      <p class="hero-sub">I build full-stack platforms, design internal tools, and automate business operations.</p>
       <div class="hero-actions">
         <a href="#projects" class="btn btn-primary">View My Work</a>
         <a href="#contact" class="btn btn-outline">Get In Touch</a>
       </div>
       <div class="hero-stats">
-        <div class="stat">
-          <span class="stat-num">4+</span>
-          <span class="stat-label">Years in Dev</span>
-        </div>
-        <div class="stat">
-          <span class="stat-num">4</span>
-          <span class="stat-label">Products Built</span>
-        </div>
-        <div class="stat">
-          <span class="stat-num">50%</span>
-          <span class="stat-label">Process Time Reduced</span>
-        </div>
+        <div class="stat"><span class="stat-num">4+</span><span class="stat-label">Years in Dev</span></div>
+        <div class="stat"><span class="stat-num">250+</span><span class="stat-label">Users Managed</span></div>
+        <div class="stat"><span class="stat-num">12+</span><span class="stat-label">Tools Built</span></div>
       </div>
     </div>
   </header>
 
-  <section class="section" id="about">
-    <div class="container">
-      <h2 class="section-title">About Me</h2>
-      <div class="about-grid">
-        <div class="about-text">
-          <p>I'm an Aviation IT and Operations professional based in Santiago, Chile, with a passion for turning complex operational problems into elegant digital solutions.</p>
-          <p>With experience spanning airline operations, university systems, and startup product development, I bring a unique perspective to every project — combining technical depth with a sharp eye for user experience and business impact.</p>
-          <p>At <strong>Remote Leverage</strong>, I architected and developed a full-stack HR platform and suite of sales tools from the ground up using Supabase, PostgreSQL, and Next.js. At <strong>MSU Denver</strong>, I built internal tools and databases that automated departmental workflows and eliminated thousands of hours of manual work. I thrive at the intersection of design, engineering, and operations.</p>
-        </div>
-        <div class="about-details">
-          <div class="detail-card">
-            <div class="detail-icon">&#9906;</div>
-            <h3>Location</h3>
-            <p>Santiago, Chile</p>
-          </div>
-          <div class="detail-card">
-            <div class="detail-icon">&#9872;</div>
-            <h3>Languages</h3>
-            <p>English (Native) &bull; Spanish (B2)</p>
-          </div>
-          <div class="detail-card">
-            <div class="detail-icon">&#127891;</div>
-            <h3>Education</h3>
-            <p>B.S. Aviation &amp; Aerospace<br>MSU Denver</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
+  <!-- PROJECTS -->
   <section class="section section-dark" id="projects">
     <div class="container">
-      <h2 class="section-title">Featured Projects</h2>
-      <div class="projects-grid">
+      <h2 class="section-title">Projects</h2>
 
-        <div class="project-card project-featured">
-          <div class="project-badge">Featured</div>
-          <div class="project-image">
-            <img src="images/hriq-dashboard-dark.png" alt="HRIQ Platform — Dark mode dashboard with globe visualization, contractor stats, and payroll overview" loading="lazy">
-          </div>
-          <div class="project-body">
-            <div class="project-header">
-              <div class="project-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="32" height="32"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M9 12h6M9 8h6M9 16h3"/></svg>
-              </div>
-              <h3>HRIQ Platform</h3>
-            </div>
-            <p class="project-desc">A comprehensive internal HR dashboard built for Remote Leverage to manage 250+ contractors across multiple client organizations. Features real-time analytics with a 3D globe visualization, automated onboarding pipelines, payroll management ($67K+ processed), built-in productivity tools (calculator, world clock, typing test, meeting cost tracker, icebreakers, notepad), and a full admin control panel — all in a monorepo architecture.</p>
-            <div class="project-tech">
-              <span>Next.js</span><span>TypeScript</span><span>Supabase</span><span>PostgreSQL</span><span>Tailwind CSS</span><span>Vercel</span><span>Turborepo</span><span>React</span>
-            </div>
-            <ul class="project-highlights">
-              <li>Full-stack monorepo with 7 apps and 21 packages</li>
-              <li>Manages 250+ contractors across 4 client organizations</li>
-              <li>Automated onboarding pipeline with progress tracking</li>
-              <li>Integrated with Calendly, JotForm, Stripe, QuickBooks, and more</li>
-            </ul>
+      <!-- HRIQ Platform -->
+      <div class="project-card project-featured">
+        <div class="project-badge">Featured</div>
+        <div class="project-image">
+          <img src="images/hriq-dashboard-dark.png" alt="HRIQ Platform dashboard" loading="lazy">
+        </div>
+        <div class="project-body">
+          <h3>HRIQ — Internal HR Platform</h3>
+          <p class="project-desc">Full-stack HR dashboard managing 250+ contractors across multiple organizations. Dark-mode UI with 3D globe visualization, real-time analytics, payroll processing, automated onboarding pipelines, and an admin control panel.</p>
+          <div class="project-tech">
+            <span>Next.js</span><span>TypeScript</span><span>Supabase</span><span>PostgreSQL</span><span>Tailwind CSS</span><span>Vercel</span><span>Turborepo</span>
           </div>
         </div>
-
-        <div class="project-gallery">
-          <div class="gallery-item">
-            <img src="images/hriq-payroll-dark.png" alt="HRIQ Payroll management with timesheet approvals" loading="lazy">
-            <p class="gallery-caption">Payroll &amp; Timesheet Approvals</p>
-          </div>
-          <div class="gallery-item">
-            <img src="images/hriq-contractors-dark.png" alt="HRIQ Contractor management table" loading="lazy">
-            <p class="gallery-caption">Contractor Management</p>
-          </div>
-          <div class="gallery-item">
-            <img src="images/hriq-org.png" alt="HRIQ Internal dashboard with org stats" loading="lazy">
-            <p class="gallery-caption">Organization Analytics</p>
-          </div>
-          <div class="gallery-item">
-            <img src="images/hriq-hiring.png" alt="HRIQ Hiring & Onboarding pipeline" loading="lazy">
-            <p class="gallery-caption">Hiring &amp; Onboarding Pipeline</p>
-          </div>
-          <div class="gallery-item">
-            <img src="images/hriq-settings.png" alt="HRIQ Platform Settings and Stats" loading="lazy">
-            <p class="gallery-caption">Admin Panel &amp; Platform Stats</p>
-          </div>
-          <div class="gallery-item">
-            <img src="images/widget-invoice-calculator.png" alt="Invoice Calculator widget with CRM integration" loading="lazy">
-            <p class="gallery-caption">Invoice Calculator Widget</p>
-          </div>
-          <div class="gallery-item">
-            <img src="images/hriq-login.png" alt="HRIQ Login screen" loading="lazy">
-            <p class="gallery-caption">Branded Authentication</p>
-          </div>
-          <div class="gallery-item">
-            <img src="images/rl-signup.png" alt="HRIQ Sign up screen" loading="lazy">
-            <p class="gallery-caption">User Registration</p>
-          </div>
-          <div class="gallery-item">
-            <img src="images/rl-website-full.png" alt="Remote Leverage full website" loading="lazy">
-            <p class="gallery-caption">External Sales Website</p>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <div class="project-image">
-            <img src="images/rl-website.png" alt="Remote Leverage — Sales website homepage" loading="lazy">
-          </div>
-          <div class="project-body">
-            <div class="project-header">
-              <div class="project-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="32" height="32"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
-              </div>
-              <h3>Sales Platform, CRM &amp; Tools</h3>
-            </div>
-            <p class="project-desc">External-facing sales website and comprehensive CRM-integrated tooling for Remote Leverage. Built a multi-channel sales pipeline connecting Salesforce, HubSpot, and RecruitCRM to drive client acquisition for the company's Latin American virtual assistant staffing business. Includes automated lead tracking, consultation booking, proposal generation, and contract workflows.</p>
-            <div class="project-tech">
-              <span>Salesforce</span><span>HubSpot</span><span>RecruitCRM</span><span>Next.js</span><span>TypeScript</span><span>Respond.io</span><span>OpenPhone</span><span>Calendly</span><span>JotForm</span><span>Zapier</span>
-            </div>
-            <ul class="project-highlights">
-              <li>Designed multi-channel sales pipeline with Salesforce and HubSpot integrations</li>
-              <li>Built automated lead nurturing workflows across email, WhatsApp, and phone</li>
-              <li>Integrated booking, CRM, proposal, and contract workflows end-to-end</li>
-              <li>Created client-facing portal with real-time hiring pipeline visibility</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <div class="project-body">
-            <div class="project-header">
-              <div class="project-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="32" height="32"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/><path d="M8 7h8M8 11h6"/></svg>
-              </div>
-              <h3>MSU Denver — Departmental Operations Platform</h3>
-            </div>
-            <p class="project-desc">Internal web application and database system built for the Aviation &amp; Aerospace department at MSU Denver. Centralized student program management, automated scheduling, digitized records, and streamlined coordination across multiple departmental units.</p>
-            <div class="project-tech">
-              <span>PostgreSQL</span><span>SQL</span><span>Python</span><span>JavaScript</span><span>Google APIs</span><span>Automation</span>
-            </div>
-            <ul class="project-highlights">
-              <li>Designed and maintained PostgreSQL database for student and program data</li>
-              <li>Automated scheduling, resource allocation, and event coordination</li>
-              <li>Built reporting dashboards used by department heads for decision-making</li>
-              <li>Reduced manual administrative processing time by 35%</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <div class="project-body">
-            <div class="project-header">
-              <div class="project-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="32" height="32"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
-              </div>
-              <h3>Flight Delay Tracking Tool</h3>
-            </div>
-            <p class="project-desc">Agile-based delay tracking and reporting tool developed at Frontier Airlines. Designed to improve operational visibility and data accuracy for 200+ daily flights in a high-volume, FAA-regulated environment.</p>
-            <div class="project-tech">
-              <span>Data Analysis</span><span>SQL</span><span>Agile Methodology</span><span>Reporting Dashboards</span><span>FAA Compliance</span>
-            </div>
-            <ul class="project-highlights">
-              <li>Reduced reporting time by 25%</li>
-              <li>Increased data accuracy by 40%</li>
-              <li>Supported FAA compliance audit requirements</li>
-            </ul>
-          </div>
-        </div>
-
       </div>
+
+      <div class="project-gallery">
+        <div class="gallery-item">
+          <img src="images/hriq-payroll-dark.png" alt="Payroll management" loading="lazy">
+          <p class="gallery-caption">Payroll &amp; Timesheets</p>
+        </div>
+        <div class="gallery-item">
+          <img src="images/hriq-contractors-dark.png" alt="Contractor management" loading="lazy">
+          <p class="gallery-caption">Contractor Management</p>
+        </div>
+        <div class="gallery-item">
+          <img src="images/hriq-hiring.png" alt="Hiring pipeline" loading="lazy">
+          <p class="gallery-caption">Onboarding Pipeline</p>
+        </div>
+        <div class="gallery-item">
+          <img src="images/hriq-org.png" alt="Org analytics" loading="lazy">
+          <p class="gallery-caption">Org Analytics</p>
+        </div>
+        <div class="gallery-item">
+          <img src="images/hriq-settings.png" alt="Admin panel" loading="lazy">
+          <p class="gallery-caption">Admin Panel</p>
+        </div>
+        <div class="gallery-item">
+          <img src="images/hriq-login.png" alt="Login" loading="lazy">
+          <p class="gallery-caption">Auth &amp; Branding</p>
+        </div>
+      </div>
+
+      <!-- Hiring Manager Tools -->
+      <div class="project-card">
+        <div class="project-body">
+          <h3>Hiring Manager Tools &amp; Widgets</h3>
+          <p class="project-desc">Suite of 12+ embeddable HTML tools built for sales and hiring teams. Integrated with CRM, Slack, QuickBooks, and AI to automate invoicing, candidate management, support requests, job posting, and financing calculations.</p>
+          <div class="project-tech">
+            <span>JavaScript</span><span>HTML/CSS</span><span>Supabase</span><span>Slack API</span><span>CRM API</span><span>QuickBooks</span><span>AI/LLM</span><span>Zapier</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-gallery">
+        <div class="gallery-item">
+          <img src="images/widget-invoice-calculator.png" alt="Invoice Calculator" loading="lazy">
+          <p class="gallery-caption">Invoice Calculator</p>
+        </div>
+        <div class="gallery-item">
+          <img src="images/widget-firefighting.png" alt="Support Request Tool" loading="lazy">
+          <p class="gallery-caption">Firefighting Support</p>
+        </div>
+        <div class="gallery-item">
+          <img src="images/widget-account-executive.png" alt="Notes Manager" loading="lazy">
+          <p class="gallery-caption">AE Notes Manager</p>
+        </div>
+        <div class="gallery-item">
+          <img src="images/widget-financing-calculator.png" alt="Financing Calculator" loading="lazy">
+          <p class="gallery-caption">Financing Calculator</p>
+        </div>
+      </div>
+
+      <!-- Sales Platform -->
+      <div class="project-card">
+        <div class="project-body">
+          <h3>Sales Platform &amp; CRM Integrations</h3>
+          <p class="project-desc">Multi-channel sales pipeline connecting Salesforce, HubSpot, and RecruitCRM. Automated lead tracking, consultation booking, proposal generation, and contract workflows across email, WhatsApp, and phone.</p>
+          <div class="project-tech">
+            <span>Salesforce</span><span>HubSpot</span><span>RecruitCRM</span><span>Respond.io</span><span>OpenPhone</span><span>Calendly</span><span>Zapier</span>
+          </div>
+        </div>
+      </div>
+
     </div>
   </section>
 
+  <!-- EXPERIENCE -->
   <section class="section" id="experience">
     <div class="container">
       <h2 class="section-title">Experience</h2>
@@ -241,11 +154,9 @@
             <p class="timeline-role">Automation Specialist &bull; Lead Product Designer &bull; Full-Stack Developer</p>
             <ul>
               <li>Architected HRIQ, a full-stack HR platform with Next.js, TypeScript, Supabase, and PostgreSQL</li>
-              <li>Built external sales platform with Salesforce, HubSpot, and RecruitCRM integrations</li>
-              <li>Led end-to-end UI/UX design, establishing the company's design system</li>
-              <li>Designed PostgreSQL schemas, wrote SQL migrations, and implemented row-level security</li>
-              <li>Built automated onboarding, payroll, and employee management workflows</li>
-              <li>Created built-in productivity tools: calculator, world clock, typing test, meeting cost tracker</li>
+              <li>Built 12+ hiring manager tools integrated with Slack, CRM, QuickBooks, and AI</li>
+              <li>Designed multi-channel sales pipeline with Salesforce and HubSpot</li>
+              <li>Managed PostgreSQL schemas, SQL migrations, and row-level security</li>
             </ul>
           </div>
         </div>
@@ -253,27 +164,12 @@
         <div class="timeline-item">
           <div class="timeline-dot"></div>
           <div class="timeline-content">
-            <div class="timeline-date">Feb 2024 &mdash; Present</div>
+            <div class="timeline-date">Feb 2024 &mdash; Aug 2024</div>
             <h3>Metropolitan State University of Denver</h3>
             <p class="timeline-role">Automation &amp; Integration Specialist (Remote)</p>
             <ul>
-              <li>Lead automated workflow design, reducing manual data entry by 40%</li>
-              <li>Partner with department heads to translate operational needs into product roadmaps</li>
-              <li>Develop system documentation, logic maps, and troubleshooting procedures</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content">
-            <div class="timeline-date">Nov 2023 &mdash; Mar 2024</div>
-            <h3>Frontier Airlines</h3>
-            <p class="timeline-role">Flight Operations Analyst (Intern)</p>
-            <ul>
-              <li>Supported operations for 200+ daily flights in a regulated environment</li>
-              <li>Designed an Agile-based delay tracking tool improving reporting and accuracy</li>
-              <li>Ensured 100% compliance with FAA audit requirements</li>
+              <li>Led automated workflow design, reducing manual data entry by 40%</li>
+              <li>Translated operational needs into product roadmaps with department heads</li>
             </ul>
           </div>
         </div>
@@ -285,10 +181,20 @@
             <h3>Metropolitan State University of Denver</h3>
             <p class="timeline-role">Developer &amp; Program Operations Coordinator</p>
             <ul>
-              <li>Designed and maintained PostgreSQL databases for student program data and departmental records</li>
-              <li>Built internal web tools and automated reporting dashboards with Python, JavaScript, and SQL</li>
-              <li>Automated scheduling, resource allocation, and event coordination workflows</li>
-              <li>Integrated Google APIs for email automation, calendar management, and document generation</li>
+              <li>Built internal web tools and PostgreSQL databases for student program management</li>
+              <li>Automated scheduling and reporting with Python, JavaScript, SQL, and Google APIs</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">Nov 2023 &mdash; Mar 2024</div>
+            <h3>Frontier Airlines</h3>
+            <p class="timeline-role">Flight Operations Analyst (Intern)</p>
+            <ul>
+              <li>Designed delay tracking tool — reduced reporting time 25%, increased accuracy 40%</li>
             </ul>
           </div>
         </div>
@@ -298,11 +204,9 @@
           <div class="timeline-content">
             <div class="timeline-date">Jan 2021 &mdash; Feb 2023</div>
             <h3>International Jet</h3>
-            <p class="timeline-role">Operations Assistant &mdash; Client Success &amp; Project Delivery (Remote)</p>
+            <p class="timeline-role">Operations Assistant &mdash; Client Success (Remote)</p>
             <ul>
-              <li>Managed enterprise B2B client relationships for charter flights with 100% mission completion</li>
-              <li>Streamlined CRM integrations, reducing response times by 30%</li>
-              <li>Coordinated 25+ weekly missions aligning logistics with compliance</li>
+              <li>Managed B2B client relationships and CRM integrations for charter operations</li>
             </ul>
           </div>
         </div>
@@ -311,54 +215,49 @@
     </div>
   </section>
 
+  <!-- SKILLS -->
   <section class="section section-dark" id="skills">
     <div class="container">
-      <h2 class="section-title">Skills &amp; Tools</h2>
+      <h2 class="section-title">Skills</h2>
       <div class="skills-grid">
         <div class="skill-group">
           <h3>Development</h3>
           <div class="skill-tags">
-            <span>Next.js</span><span>TypeScript</span><span>React</span><span>Node.js</span><span>Python</span><span>JavaScript</span><span>Tailwind CSS</span><span>Vercel</span><span>Turborepo</span><span>REST APIs</span><span>Git</span>
+            <span>Next.js</span><span>TypeScript</span><span>React</span><span>Node.js</span><span>Python</span><span>JavaScript</span><span>Tailwind CSS</span><span>Vercel</span><span>Git</span>
           </div>
         </div>
         <div class="skill-group">
-          <h3>Databases &amp; Backend</h3>
+          <h3>Databases</h3>
           <div class="skill-tags">
-            <span>PostgreSQL</span><span>SQL</span><span>Supabase</span><span>Database Design</span><span>Migrations</span><span>Row-Level Security</span><span>Data Modeling</span>
+            <span>PostgreSQL</span><span>SQL</span><span>Supabase</span><span>Database Design</span><span>Migrations</span><span>Row-Level Security</span>
           </div>
         </div>
         <div class="skill-group">
           <h3>Design</h3>
           <div class="skill-tags">
-            <span>UI/UX Design</span><span>Figma</span><span>Design Systems</span><span>Responsive Design</span><span>Prototyping</span>
-          </div>
-        </div>
-        <div class="skill-group">
-          <h3>Operations &amp; PM</h3>
-          <div class="skill-tags">
-            <span>Scrum / Kanban</span><span>Jira</span><span>Confluence</span><span>Workflow Automation</span><span>Integration Scoping</span><span>Risk Mitigation</span>
+            <span>UI/UX Design</span><span>Figma</span><span>Design Systems</span><span>Responsive Design</span>
           </div>
         </div>
         <div class="skill-group">
           <h3>Sales &amp; CRM</h3>
           <div class="skill-tags">
-            <span>Salesforce</span><span>HubSpot</span><span>RecruitCRM</span><span>Respond.io</span><span>OpenPhone</span><span>Zapier</span><span>Lead Pipelines</span>
+            <span>Salesforce</span><span>HubSpot</span><span>RecruitCRM</span><span>Respond.io</span><span>Zapier</span>
           </div>
         </div>
         <div class="skill-group">
           <h3>Integrations</h3>
           <div class="skill-tags">
-            <span>Stripe</span><span>QuickBooks</span><span>Calendly</span><span>JotForm</span><span>Sentry</span><span>Google APIs</span><span>Wise</span><span>Cadana</span>
+            <span>Stripe</span><span>QuickBooks</span><span>Calendly</span><span>Slack API</span><span>Google APIs</span><span>Sentry</span>
           </div>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- CONTACT -->
   <section class="section" id="contact">
     <div class="container contact-container">
-      <h2 class="section-title">Let's Connect</h2>
-      <p class="contact-sub">I'm always open to discussing new opportunities, interesting projects, or just talking tech.</p>
+      <h2 class="section-title">Contact</h2>
       <div class="contact-links">
         <a href="mailto:Steele.SebastianG@Gmail.com" class="contact-card">
           <div class="contact-icon">&#9993;</div>
@@ -373,14 +272,14 @@
         <a href="https://github.com/Aerobridgeadmin" target="_blank" class="contact-card">
           <div class="contact-icon">&#128187;</div>
           <h3>GitHub</h3>
-          <p>Aerobridgeadmin</p>
+          <p>GitHub Profile</p>
         </a>
       </div>
     </div>
   </section>
 
   <footer class="footer">
-    <p>&copy; 2026 Sebastián Steele Gana. Built with purpose.</p>
+    <p>&copy; 2026 Sebastián Steele Gana</p>
   </footer>
 
   <script src="script.js"></script>
